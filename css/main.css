@@ -7885,6 +7885,9 @@ h2, .h2 {
   line-height: 2.2;
   color: #483c3e; }
 
+nav {
+  width: auto; }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -7911,6 +7914,10 @@ section {
   text-align: center; }
 
 @media (max-width: 768.98px) {
+  #header {
+    width: auto; }
+  nav {
+    margin: 10px; }
   nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -7922,7 +7929,10 @@ section {
     font-size: 1.5rem; }
   .homewrapper p {
     font-size: 1rem;
-    padding: 10px 20px; } }
+    padding: 10px 20px; }
+  ol,
+  ul {
+    padding-left: 0; } }
 
 .carousel-item img {
   height: 600px;
