@@ -63,4 +63,10 @@ thumbs.forEach(function(item, index) {
     document.getElementById('bigimg').src = this.dataset.image;
    }
 });
+//question//
+$(document).ready(function(){
+  　$("p.question").on("click", function() {
+  　　$(this).next().slideToggle(200);
+  　});
+  });
 //# sourceMappingURL=main.js.map
