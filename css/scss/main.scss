@@ -44,16 +44,16 @@ img {
     width: 100%;
     min-width: auto;
     max-width: 100%;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
   .-serif {
     width: 100%;
     padding: 0 30px;
   }
 }
+
 /////////固定ナビ///////////////////////////////
 /*========= 上部固定させるためのCSS ===============*/
-
-
 #header{
   position: fixed;/*fixedを設定して固定*/
   height: 120px;/*高さ指定*/
@@ -200,9 +200,6 @@ section{
     padding-left: 0; 
    }
  }
-
-
-
 
 //*------------------カルーセル-----------------------*//
 .carousel-item img {
