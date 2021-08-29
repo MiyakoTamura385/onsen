@@ -1,12 +1,12 @@
-//スクロール途中からヘッダーを出現させるための設定を関数でまとめる
+//スクロール途中からヘッダーを出現させるための設定
 function FixedAnime() {
     var elemTop = $('#area-2').offset().top;//#area-2の位置まできたら
     var scroll = $(window).scrollTop();
     if(scroll <= 20){//上から20pxスクロールされたら
-      $('#header').addClass('DownMove');//DownMoveというクラス名を除き
+      $('#header').addClass('DownMove');
     } else if (scroll >= elemTop){
-        $('#header').removeClass('UpMove');//#headerについているUpMoveというクラス名を除く
-        $('#header').addClass('DownMove');//#headerについているDownMoveというクラス名を付与
+        $('#header').removeClass('UpMove');
+        $('#header').addClass('DownMove');
   
       }else{
         if($('#header').hasClass('DownMove')){//すでに#headerにDownMoveというクラス名がついていたら
@@ -43,6 +43,7 @@ function FixedAnime() {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     infinite: true,
+    fade: true,
   });
 
 const thumbs = document.querySelectorAll('.thumb');
@@ -57,3 +58,16 @@ $(document).ready(function(){
   　　$(this).next().slideToggle(200);
   　});
   });
+
+//SPのみ　ハンバーガーメニューバー//
+$(function() {
+  $('.hamburger').click(function() {
+      $(this).toggleClass('active');
+
+      if ($(this).hasClass('active')) {
+          $('.globalMenuSp').addClass('active');
+      } else {
+          $('.globalMenuSp').removeClass('active');
+      }
+  });
+});

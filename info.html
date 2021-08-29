@@ -14,31 +14,49 @@
 </head>
 
 <body>
-    <header id="header">
-        <h1><a href="index.html">四季屋</a></h1>
-      <nav>
-        <ul id="g-navi">
-          <li><a href="shikiya.html">四季屋について</a></li>
-          <li><a href="oheya.html">お部屋</a></li>
-          <li><a href="onsen.html">温泉</a></li>
-          <li><a href="ryouri.html">お食事</a></li>
-          <li><a href="access.html">交通案内</a></li>
-          <li><a href="info.html">よくあるご質問</a></li>
-        </ul>
-      </nav>
-      </header>
+  <header id="header" class="DownMove">
+    <h1><a href="index.html">四季屋</a></h1>
+  <nav>
+    <ul class="pc-only">
+      <li><a href="shikiya.html">四季屋について</a></li>
+      <li><a href="oheya.html">お部屋</a></li>
+      <li><a href="onsen.html">温泉</a></li>
+      <li><a href="ryouri.html">お食事</a></li>
+      <li><a href="access.html">交通</a></li>
+      <li><a href="info.html">よくあるご質問</a></li>
+    </ul>
+  </nav>
 
-    <main id="info">
-      <section id="area-1">
-          <div class="main-img">
-              <img src="img/yokuarushitsumon.jpg">
-              <p class="absolute"><b>よくあるご質問</b></p>
-          </div>
-      </section>
+  <div class="sp-only">
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>  
+    <nav class="globalMenuSp">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="shikiya.html">四季屋について</a></li>
+        <li><a href="oheya.html">お部屋</a></li>
+        <li><a href="onsen.html">温泉</a></li>
+        <li><a href="ryouri.html">お食事</a></li>
+        <li><a href="access.html">交通</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
 
-      <section id="area-2">
-        <div class="text-conteiner">
-          <div class="c-heading">
+  <main id="info">
+    <section id="area-1">
+      <div class="main-img">
+        <img src="img/yokuarushitsumon.jpg">
+        <p class="absolute"><b>よくある<br class="sp">ご質問</b></p>
+      </div>
+    </section>
+
+    <section id="area-2">
+      <div class="text-conteiner">
+        <div class="c-heading">
             <div class="c-article">
             <p class="center">お客様からよくお寄せいただくお問い合わせをご案内いたします。</p>
             </div>
@@ -112,9 +130,9 @@
           <div class="wrp_sns">
             <p class="st">Follow us</p>
             <ul>
-              <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-              <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></li>
-              <li><a href="https://www.instagram.com/miya_ko38/" target="_blank"><i class="fab fa-instagram-square fa-lg"></i></a></li>
+              <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-lg yureru-s"></i></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-lg yureru-s"></i></a></li>
+              <li><a href="https://www.instagram.com/miya_ko38/" target="_blank"><i class="fab fa-instagram-square fa-lg yureru-s"></i></a></li>
             </ul>
           </div>
         </div>
@@ -138,7 +156,7 @@
             </ul>
             <ul>
               <li><a href="newinfo.html">お知らせ</a></li>
-              <li><a href="#">よくあるご質問</a></li>
+              <li><a href="info.html">よくあるご質問</a></li>
             </ul>
             <ul>
               <li><a href="info.html">お問い合わせ</a></li>
