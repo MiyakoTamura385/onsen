@@ -7798,7 +7798,8 @@ img {
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
   .-serif {
     width: 100%;
-    padding: 0 30px; }
+    padding: 0 30px;
+    font-size: 1rem; }
   img {
     width: 280px; }
   b {
@@ -8678,7 +8679,7 @@ table tbody tr * {
 
 @media (max-width: 768.98px) {
   #mainbox-oheya {
-    max-width: 100%; }
+    max-width: 97%; }
   #mainbox-oheya .oheya {
     padding: 20px; }
   #oheya .lazyload {

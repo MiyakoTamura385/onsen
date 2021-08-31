@@ -51,6 +51,7 @@ img {
   .-serif {
     width: 100%;
     padding: 0 30px;
+    font-size: 1rem;
   }
   img {
     width: 280px;
@@ -1127,7 +1128,7 @@ table tbody tr * {
 }
 @media (max-width: 768.98px) {
   #mainbox-oheya {
-    max-width: 100%;
+    max-width: 97%;
   }
   #mainbox-oheya .oheya {
     padding: 20px;
